@@ -158,10 +158,10 @@ pydub
 
 📸 Screenshots             
 💬 English Chat Mode                
-![English Chat Screenshot](https://github.com/mahammadshama/hr-assistant-chatbot/blob/main/english_example.jpg)
+![English Chat Screenshot](english_example.jpg)
 
 🗣 Arabic Chat Mode  
-![Arabic Chat Screenshot](https://github.com/mahammadshama/hr-assistant-chatbot/blob/main/arabic_example.jpg)         
+![Arabic Chat Screenshot](arabic_example.jpg)         
 
 
 🚀 Future Improvements           
