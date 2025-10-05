@@ -166,23 +166,19 @@ pydub
 
 🚀 Future Improvements           
 
-Add document upload (PDF/Docx HR files) support.
+Add document upload (PDF/Docx HR files) support.            
 
-Integrate OpenAI or Gemini for cloud-based inference.
+Integrate OpenAI or Gemini for cloud-based inference.           
 
-Save chat history for each user.
+Save chat history for each user.                                  
 
-Add authentication and role-based access (e.g., admin HR panel).
+Add authentication and role-based access (e.g., admin HR panel).                      
 
-👩‍💻 Author:
-Mahammad Shama
-📍 Data Scientist | Machine Learning Enthusiast
-💡 Passionate about AI + NLP + LLM Applications
+👩‍💻 Author:                  
+Mahammad Shama                                     
+📍 Data Scientist | Machine Learning Enthusiast                           
+💡 Passionate about AI + NLP + LLM Applications                         
 
-⭐ Contribute
+⭐ Contribute                               
 
-Want to improve this project? Fork it, create a branch, and submit a pull request — contributions are always welcome!
-
-📄 License
-
-This project is licensed under the MIT License — free to use and modify with attribution.
+Want to improve this project? Fork it, create a branch, and submit a pull request — contributions are always welcome!              
