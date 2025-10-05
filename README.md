@@ -157,14 +157,13 @@ pydub
 
 
 📸 Screenshots             
-💬 English Chat Mode           
-       
-(add your image here)            
+💬 English Chat Mode                
+![English Chat Screenshot](https://github.com/mahammadshama/hr-assistant-chatbot/blob/main/english_example.jpg)
 
-🗣 Arabic Chat Mode             
- 
-(add your image here)         
- 
+🗣 Arabic Chat Mode  
+![Arabic Chat Screenshot](https://github.com/mahammadshama/hr-assistant-chatbot/blob/main/arabic_example.jpg)         
+
+
 🚀 Future Improvements           
 
 Add document upload (PDF/Docx HR files) support.
