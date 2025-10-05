@@ -1,3 +1,10 @@
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
+![LangChain](https://img.shields.io/badge/LangChain-RAG-green)
+![Ollama](https://img.shields.io/badge/LLM-Aya8B-yellow)
+
+
+
 💼 HR Assistant Chatbot
 
 An intelligent AI-powered HR Assistant Bot built using LangChain, Ollama, Streamlit, and Hugging Face embeddings, capable of understanding both English and Arabic, with voice interaction and context-aware answers.
@@ -52,17 +59,17 @@ Real-time chat bubbles for user and bot
 Uses Ollama with Aya 8B model, so responses are generated locally — no dependency on paid APIs like OpenAI.
 
 ⚙️ Tech Stack                    
-Category	                    Tools & Libraries                 
-Frontend / UI	                Streamlit, Streamlit-Chat               
-LLM / NLP	                    Ollama (Aya-8B model)                
-Embeddings	                  Hugging Face – sentence-transformers/all-MiniLM-L6-v2                
-Vector Store	                ChromaDB                  
-Framework	                    LangChain          
-Speech Recognition	          SpeechRecognition                     
-Text-to-Speech	              gTTS                  
-Language Support	            English, Arabic               
-IDE	                          PyCharm
-Version Control	              Git + GitHub
+Category	            -        Tools & Libraries                 
+Frontend / UI	        -       Streamlit, Streamlit-Chat               
+LLM / NLP	            -       Ollama (Aya-8B model)                
+Embeddings	          -        Hugging Face – sentence-transformers/all-MiniLM-L6-v2                
+Vector Store	        -        ChromaDB                  
+Framework	            -        LangChain          
+Speech Recognition	  -        SpeechRecognition                     
+Text-to-Speech	      -        gTTS                  
+Language Support	    -        English, Arabic               
+IDE	                  -        PyCharm
+Version Control	      -        Git + GitHub
 
 🗂️ Project Structure                   
 hr-assistant-chatbot/                         
@@ -80,50 +87,42 @@ hr-assistant-chatbot/
 
 ⚡ Installation & Setup
 1️⃣ Clone the repository
-git clone https://github.com/yourusername/hr-assistant-chatbot.git
-cd hr-assistant-chatbot
+git clone https://github.com/mahammadshama/hr-assistant-chatbot.git
+cd hr-assistant-chatbot             
 
-2️⃣ Create a virtual environment
-python -m venv .venv
+2️⃣ Create a virtual environment        
+python -m venv .venv                
 
+3️⃣ Install dependencies             
+pip install -r requirements.txt            
 
-Activate it:
+4️⃣ Run Ollama (make sure it’s installed)      
+ollama run aya:8b          
 
-Windows: .\.venv\Scripts\activate
-
-Linux/Mac: source .venv/bin/activate
-
-3️⃣ Install dependencies
-pip install -r requirements.txt
-
-4️⃣ Run Ollama (make sure it’s installed)
-ollama run aya:8b
-
-5️⃣ Launch the app
-streamlit run main.py
+5️⃣ Launch the app             
+streamlit run main.py         
 
 
-Then open the local URL (usually http://localhost:8501
-).
+Then open the local URL (usually http://localhost:8501).             
 
-🧩 How It Works
+🧩 How It Works        
 
-CSV Data Load:
-HR FAQs (with English and Arabic questions/answers) are loaded into memory and split into chunks.
+CSV Data Load:  
+HR FAQs (with English and Arabic questions/answers) are loaded into memory and split into chunks.                 
 
-Vectorization:
-Using Hugging Face embeddings, the documents are converted into dense vector representations stored in ChromaDB.
+Vectorization:           
+Using Hugging Face embeddings, the documents are converted into dense vector representations stored in ChromaDB.         
 
-Retrieval:
-When a user asks a question, the chatbot retrieves the most similar HR FAQ chunk using MMR similarity search.
+Retrieval:             
+When a user asks a question, the chatbot retrieves the most similar HR FAQ chunk using MMR similarity search.        
 
-LLM Response:
-The Aya 8B model (Ollama) processes the retrieved text and formulates a human-like answer.
+LLM Response:              
+The Aya 8B model (Ollama) processes the retrieved text and formulates a human-like answer.            
 
-Memory Tracking:
-Conversation context is preserved using LangChain message history, allowing follow-up questions.
+Memory Tracking:             
+Conversation context is preserved using LangChain message history, allowing follow-up questions.          
 
-Voice Interaction (optional):
+Voice Interaction :         
 
 Speech input captured using SpeechRecognition.
 
@@ -131,21 +130,13 @@ Bot’s spoken reply generated using gTTS.
 
 🗣 Example Interaction
 
-User (English):
+User (English):   Hi, what is the annual leave policy?
 
-Hi, what is the annual leave policy?
+Bot (English):    Employees are entitled to 18 days of paid annual leave.
 
-Bot (English):
+User (Arabic):     ما هي سياسة الإجازة السنوية؟  
 
-Employees are entitled to 18 days of paid annual leave.
-
-User (Arabic):
-
-ما هي سياسة الإجازة السنوية؟
-
-Bot (Arabic):
-
-يحق للموظفين الحصول على 18 يومًا من الإجازة السنوية المدفوعة الأجر.
+Bot (Arabic):      يحق للموظفين الحصول على 18 يومًا من الإجازة السنوية المدفوعة الأجر.
 
 📦 requirements.txt
 
@@ -165,21 +156,16 @@ SpeechRecognition
 pydub
 
 
-(Optional for GPU users:)
+📸 Screenshots             
+💬 English Chat Mode           
+       
+(add your image here)            
 
-accelerate
-bitsandbytes
-
-📸 Screenshots
-💬 English Chat Mode
-
-(add your image here)
-
-🗣 Arabic Voice Mode
-
-(add your image here)
-
-🚀 Future Improvements
+🗣 Arabic Chat Mode             
+ 
+(add your image here)         
+ 
+🚀 Future Improvements           
 
 Add document upload (PDF/Docx HR files) support.
 
@@ -189,12 +175,10 @@ Save chat history for each user.
 
 Add authentication and role-based access (e.g., admin HR panel).
 
-👩‍💻 Author
-
-Mahammad Sha
+👩‍💻 Author:
+Mahammad Shama
 📍 Data Scientist | Machine Learning Enthusiast
 💡 Passionate about AI + NLP + LLM Applications
-🌐 GitHub
 
 ⭐ Contribute
 
