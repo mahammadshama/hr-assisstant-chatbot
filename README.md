@@ -51,31 +51,32 @@ Real-time chat bubbles for user and bot
 ✅ Offline LLM:
 Uses Ollama with Aya 8B model, so responses are generated locally — no dependency on paid APIs like OpenAI.
 
-⚙️ Tech Stack
-Category	Tools & Libraries
-Frontend / UI	Streamlit, Streamlit-Chat
-LLM / NLP	Ollama (Aya-8B model)
-Embeddings	Hugging Face – sentence-transformers/all-MiniLM-L6-v2
-Vector Store	ChromaDB
-Framework	LangChain
-Speech Recognition	SpeechRecognition
-Text-to-Speech	gTTS
-Language Support	English, Arabic
-IDE	PyCharm
-Version Control	Git + GitHub
-🗂️ Project Structure
-hr-assistant-chatbot/
+⚙️ Tech Stack                    
+Category	                    Tools & Libraries                 
+Frontend / UI	                Streamlit, Streamlit-Chat               
+LLM / NLP	                    Ollama (Aya-8B model)                
+Embeddings	                  Hugging Face – sentence-transformers/all-MiniLM-L6-v2                
+Vector Store	                ChromaDB                  
+Framework	                    LangChain          
+Speech Recognition	          SpeechRecognition                     
+Text-to-Speech	              gTTS                  
+Language Support	            English, Arabic               
+IDE	                          PyCharm
+Version Control	              Git + GitHub
+
+🗂️ Project Structure                   
+hr-assistant-chatbot/                         
+│                    
+├── data/                                      
+│   └── hr_faq1.csv                # HR policy FAQs (English + Arabic)                    
 │
-├── data/
-│   └── hr_faq1.csv                # HR policy FAQs (English + Arabic)
+├── main.py                        # Main Streamlit app file                  
 │
-├── main.py                        # Main Streamlit app file
+├── requirements.txt               # Python dependencies                          
 │
-├── requirements.txt               # Python dependencies
+├── README.md                      # Project documentation (this file)                  
 │
-├── README.md                      # Project documentation (this file)
-│
-└── .gitignore                     # To exclude unnecessary files
+└── .gitignore                     # To exclude unnecessary files              
 
 ⚡ Installation & Setup
 1️⃣ Clone the repository
